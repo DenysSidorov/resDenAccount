@@ -43,7 +43,7 @@
     text-align: center;
     padding: 18px;
     -webkit-border-radius: 7px;
-    -moz-border-radius:7px;
+    -moz-border-radius: 7px;
     border-radius: 7px;
 }
 
@@ -54,24 +54,122 @@
     font-weight: bold;
 }
 
-.nameHead h1{
+.nameHead h1 {
     color: #ffffff !important;
 }
 
-.webHead, .goHead{
+.webHead, .goHead {
     color: #ffffff;
     font-size: 17px !important;
     font-weight: bold;
 }
+
 #header .image.avatar {
     margin: 0 0 1em 0;
     width: 12.25em;
 }
-.icons li a{
+
+.icons li a {
     color: #46cde0;
 }
-.iconListLink{
+
+.iconListLink {
     color: #46cde0;
+}
+
+article {
+    height: 320px;;
+    /*overflow: hidden;*/
+    /*height: 300px;;*/
+    background-color: black;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+article.node:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/node.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
+}
+
+article.angular:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/angular.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
+}
+article.php:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/php.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
+}
+article.java:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/java.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
+}
+article.css:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/css.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
 }
 
 
