@@ -172,4 +172,8 @@ article.css:hover:after {
     background-color: #3eb08f;
 }
 
+.poptrox-popup .nav-next:before, .poptrox-popup .nav-previous:before {
+    color: #3386a7;
+    font-size: 7.5em;
+}
 
