@@ -75,13 +75,14 @@
 
 .iconListLink {
     color: #46cde0;
+    font: 16px 'Arial' ;
 }
 
 article {
     height: 320px;;
     /*overflow: hidden;*/
     /*height: 300px;;*/
-    background-color: black;
+    /*background-color: black;*/
     position: relative;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -119,6 +120,22 @@ article.angular:hover:after {
 
     content: '';
     background-image: url(../../images/mini/angular.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3eb08f;
+}
+article.react:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    content: '';
+    background-image: url(../../images/mini/react.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #3eb08f;
